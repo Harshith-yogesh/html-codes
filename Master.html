@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title> I Love Creation</title>  
+    </head>
+    <body>
+        <style>
+            body{
+                background-color: rgb(202, 245, 141);
+            }
+            html{
+                font-size :30px;
+                font-style: oblique;
+                font-weight: 200;
+            }
+            
+        </style>
+        <form action "action_page.php" method="POST">
+            <div>
+                <label for ="fname">First name:</label>
+                <input type="text" id="fname" name="fname" >
+                </div>
+             
+            <div>
+                <br>
+                <label for ="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" >
+                </div>
+                <br>
+                
+                <div>
+                    <label for ="Pass">Password:</label>
+                    <input type="Password" id="Pass" name="Pass" maxlength="12" required>
+                </div>
+                <br>
+                <div>
+                    <label for ="Email">Email:</label>
+                    <input type="Email" id="Email" name="Email" >
+                    
+                </div>
+                <br>
+                
+                <div>
+                    <label for ="Phone">Phone #:</label>
+                    <input type="tel" id="Phone" name="Phone" >
+
+                    
+                </div>
+                <br>
+
+                <div>
+                    <label for ="bdate">Birthdate:</label>
+                    <input type="Date" id="bdate" name="bdate" >
+
+                    
+                </div>
+                <br>
+                
+                
+                <div>
+                    <label for ="quantity">quantity:</label>
+                    <input type="number" id="quantity" name="quantity" min="0" max="99" value="1">
+
+
+                    
+                </div>
+                <br>
+<div>
+                <label  for ="Mr." >Mr.:</label>
+                <input type="radio" id="Mr." name="title" value="Mr.">
+</div>
+                
+
+<div>
+    <label  for ="Mrs." >Mrs:</label>
+    <input type="radio" id="Mrs." name="title" value="Mrs.">
+</div>
+
+
+
+<div>
+    <label  for ="Phd." >Phd:</label>
+    <input type="radio" id="Phd." name="title" value="Phd.">
+</div>
+
+
+<label for="Payment">Payment:</label>
+<select id="Payment" name="Payment">
+    <option value="Phone Pay">Phone Pay</option>
+    <option value="Paytm">Paytm</option>
+    
+
+</form>
+</body>
+</html>
